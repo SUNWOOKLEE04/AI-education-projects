@@ -1,135 +1,63 @@
-# 🩹 AI-Powered Smart Bandage Assessment Tool
+AI-Powered Smart Bandage Assessment Tool
 
+Project Period: April 14–21, 2025 (7-day sprint)  
+Team: Mentoring collaboration (IT planner) and a pre-med student  
+Key Innovation: A solution that connects a physical bandage product with QR code to an AI-powered web assessment tool
 
-  
-  
-  
+---
 
+Project Overview  
+This project delivers an end-to-end healthcare IT solution where every smart bandage package includes a QR code. When users take and upload wound images, the web platform uses AI to analyze visual wound features and suggests care tips and optimal bandage replacement timing. The platform was ideated, prototyped, and completed within a one-week intensive real-world learning sprint.
 
+---
 
+Main Technologies & Structure  
+- Backend: Python Flask  
+- Frontend: HTML5, CSS3, JavaScript  
+- AI Engine: Google Gemini Vision API  
+- Image Processing: Pillow (PIL)  
+- Key Feature: Seamless product-to-website connection through QR code, fully mobile and desktop ready
 
-## 🎯 Project Overview
-An innovative web-based AI solution designed for intelligent wound assessment and bandage recommendations, developed as part of a Stanford competition preparation project.
+---
 
-## 🏆 Competition Context
+Core Features  
+- Image upload and automated validation  
+- AI-driven wound analysis (tissue, drainage, skin state, and more)  
+- Personalized care and bandage replacement guidance  
+- Instant feedback and a clean, intuitive user experience  
+- QR code for direct access from the bandage package
 
+---
 
+Project Timeline (7-Day Sprint)  
+Days 1–2: Problem analysis and solution design  
+Days 3–4: AI and web development, integration  
+Days 5–6: QR system and product linkage, user experience refinement  
+Day 7: Final polishing, demo, and showcase
 
-🗓️ Development Period
-April 14-21, 2025 (7-day intensive sprint)
+---
 
+Learning Outcomes & Mentoring Impact  
+- Practical experience developing a healthcare AI application  
+- End-to-end integration of smart product and digital platform  
+- Full-cycle exposure: IT planning, development, deployment, and demo  
+- One-on-one mentoring and real-world project presentation skills
 
-🎯 Target Competition
-Stanford-focused medical innovation challenge
+---
 
+Medical Disclaimer  
+This solution is a demo for educational purposes and should not be used for real medical diagnosis or treatment. All wound care and health decisions should be supervised by qualified healthcare professionals.
 
-👥 Team Composition
-Mentoring collaboration with pre-med student
+---
 
+How to Use  
+1. Clone the repository  
+2. Set up your Python environment and install requirements  
+3. Enter your Gemini API key in the .env file  
+4. Launch the server and access the web app
 
-💡 Core Innovation
-QR code-enabled smart bandage packaging with AI assessment
+---
 
+For questions or collaboration proposals, please contact me using the email in my profile.  
+This project embodies a hands-on learning experience and real output for both student and mentor.
 
-
-## 🚀 Key Features
-
-
-
-| 🤖 AI Analysis | 📱 QR Integration | 💊 Smart Recommendations |
-|:---:|:---:|:---:|
-| Google Gemini Vision API | Physical-digital connection | Real-time care guidance |
-| Wound characteristic analysis | Instant platform access | Personalized suggestions |
-| Tissue condition assessment | Product tracking | Usage optimization |
-
-
-
-## 🛠 Technical Stack
-
-```
-Backend     │ Python Flask
-Frontend    │ HTML5, CSS3, JavaScript  
-AI Engine   │ Google Gemini Vision API
-Processing  │ PIL (Pillow) for images
-Integration │ QR Code System
-```
-
-## 📊 Product Innovation Comparison
-
-
-
-```
-Traditional Bandages          →    Smart AI-Enhanced Bandages
-┌─────────────────────────┐   →   ┌──────────────────────────────┐
-│ ⚪ Static protection    │   →   │ 🟢 Dynamic assessment        │
-│ ⚪ Manual monitoring    │   →   │ 🟢 AI-powered analysis       │
-│ ⚪ Basic guidance       │   →   │ 🟢 Personalized recommendations │
-│ ⚪ One-size-fits-all    │   →   │ 🟢 Customized care plans     │
-└─────────────────────────┘   →   └──────────────────────────────┘
-```
-
-
-
-## 🎓 Educational Impact & Learning
-
-### 📚 Student Development Achievements
-- ✅ Healthcare AI application development
-- ✅ Product-market integration strategy  
-- ✅ Competition preparation and presentation
-- ✅ Rapid prototyping under time constraints
-
-### ⏱️ 7-Day Sprint Timeline
-
-
-
-| Day | Focus Area | Key Activities |
-|:---:|:---:|:---|
-| 1-2 | 🔍 Analysis & Design | Problem identification, solution architecture |
-| 3-4 | ⚙️ Implementation | Technical development, AI integration |
-| 5-6 | 🔗 Integration | QR system development, product connection |
-| 7 | 🏁 Finalization | Competition prep, presentation refinement |
-
-
-
-## 🔧 Quick Start Guide
-
-```
-# 📥 Clone repository
-git clone https://github.com/SUNWOOKLEE04/AI-education-projects.git
-
-# 📂 Navigate to project  
-cd AI-education-projects/ai-wound-assessment-tool
-
-# 📦 Install dependencies
-pip install -r requirements.txt
-
-# ⚙️ Configure environment
-cp .env.example .env  # Add your Gemini API key
-
-# 🚀 Launch application
-python app.py
-
-
-## 🏥 Medical Disclaimer
-
-
-
-| ⚠️ IMPORTANT NOTICE |
-|:---:|
-| **Educational Purpose Only** |
-| Not for medical diagnosis or treatment decisions |
-| Always consult healthcare professionals for wound care |
-
-
-
-## 📈 Competition Achievement
-
-
-  
-  
-  
-  
-  
-
-
-**Showcased practical implementation of AI in medical technology with innovative physical-digital product integration**
