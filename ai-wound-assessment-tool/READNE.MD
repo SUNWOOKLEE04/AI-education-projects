@@ -1,7 +1,3 @@
-Sure! Here’s a concise, visually structured README-style introduction with subtle design, emoji, 구분선, 그리고 한 눈에 들어오는 하이라이트를 영어로 제공합니다.
-
----
-
 🩹 **AI-Powered Smart Bandage Assessment Tool**
 
 ---
